@@ -8,10 +8,10 @@ const counter = () => {
 
   return `
     <div>
-    <strong> count: ${count} </strong>
-    <button onclick="increment()"> + </button>
-    <button onclick="reset()"> 초기화 </button>
-    <button onclick="decrement()"> - </button>
+      <strong> count: ${count} </strong>
+      <button onclick="increment()"> + </button>
+      <button onclick="reset()"> 초기화 </button>
+      <button onclick="decrement()"> - </button>
     </div>
   `;
 };
